@@ -1,0 +1,7 @@
+﻿//GET ALL :
+
+contacts = zoho.crm.getRecords("Contacts");
+products = zoho.crm.getRecords("Products");
+return "{ \"Contacts\" : [ " + contacts + " ], \"Products\" : [ " + products + " ] } ";
+
+//PUSH ALL :
